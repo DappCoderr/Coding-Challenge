@@ -15,7 +15,7 @@
 
 
 var twoSum = function(nums, target) {
-    let map = new Map(); // Learn about map in Java Script.
+    let map = new Map(); // using hash map
 
     for(let i=0; i<nums.length; i++){
         let num1 = i;
